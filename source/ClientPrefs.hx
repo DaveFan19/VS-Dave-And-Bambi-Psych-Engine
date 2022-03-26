@@ -25,6 +25,7 @@ class ClientPrefs {
 	public static var imagesPersist:Bool = false;
 	public static var ghostTapping:Bool = true;
 	public static var hideTime:Bool = false;
+	public static var eyesores:Bool = true;
 
 	public static var defaultKeys:Array<FlxKey> = [
 		A, LEFT,			//Note Left
@@ -80,6 +81,7 @@ class ClientPrefs {
 		FlxG.save.data.imagesPersist = imagesPersist;
 		FlxG.save.data.ghostTapping = ghostTapping;
 		FlxG.save.data.hideTime = hideTime;
+		FlxG.save.data.eyesores = eyesores;		
 
 		var achieves:Array<String> = [];
 		for (i in 0...Achievements.achievementsUnlocked.length) {
@@ -161,7 +163,10 @@ class ClientPrefs {
 		if(FlxG.save.data.hideTime != null) {
 			hideTime = FlxG.save.data.hideTime;
 		}
-
+		if(FlxG.save.data.eyesores != null) {
+			eyesores = FlxG.save.data.eyesores;
+		}
+		
 		var save:FlxSave = new FlxSave();
 		save.bind('controls', 'ninjamuffin99');
 		if(save != null && save.data.customControls != null) {

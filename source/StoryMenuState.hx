@@ -49,13 +49,6 @@ class StoryMenuState extends MusicBeatState
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
 
-	var songColors:Array<FlxColor> = [
-        0xFFca1f6f, // Tutorial
-		0xFF4965FF, // Dave's Week
-		0xFF00B515, // Bambi's Week
-		0xFF00FFFF, //Splitaton
-    ];
-
 	override function create()
 	{
 		#if MODS_ALLOWED
@@ -79,8 +72,7 @@ class StoryMenuState extends MusicBeatState
 		rankText.screenCenter(X);
 
 		var ui_tex = Paths.getSparrowAtlas('campaign_menu_UI_assets');
-		yellowBG = new FlxSprite(0, 56).makeGraphic(FlxG.width * 2, 400, FlxColor.WHITE);
-		yellowBG.color = songColors[0];
+		var bgYellow:FlxSprite = new FlxSprite(0, 56).makeGraphic(FlxG.width, 386, 0xFFF9CF51);
 		bgSprite = new FlxSprite(0, 56);
 		bgSprite.antialiasing = ClientPrefs.globalAntialiasing;
 
@@ -375,8 +367,6 @@ class StoryMenuState extends MusicBeatState
 			bgSprite.loadGraphic(Paths.image('menubackgrounds/menu_' + assetName));
 		}
 		updateText();
-
-		FlxTween.color(yellowBG, 0.25, yellowBG.color, songColors[curWeek]);
 	}
 
 	function weekIsLocked(weekNum:Int) {
