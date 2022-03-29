@@ -794,7 +794,7 @@ case '3dRed':
 	testshader.waveAmplitude = 0.1;
 	testshader.waveFrequency = 5;
 	testshader.waveSpeed = 2;
-	bg.shader = testshader.shader;
+	bruh.shader = testshader.shader;
 	curbg = bruh;
 
 	//redPlatform.loadGraphic(Paths.image('dave/redPlatform'));
@@ -812,7 +812,7 @@ case '3dRed':
 	blackBG.visible = false;
 	add(blackBG);
 
-	backyardnight.loadGraphic(Paths.image('dave/backyard-night'));
+	backyardnight.loadGraphic(Paths.image('dave/backyardnight'));
 	backyardnight.antialiasing = true;
 	backyardnight.scrollFactor.set(0.6, 0.6);
 	backyardnight.active = true;
@@ -4375,90 +4375,90 @@ dad.dance();
 
 switch (SONG.song.toLowerCase())
 {
-case 'insanity':
-switch (curStep)
-{
-	case 660 | 680:
-		FlxG.sound.play(Paths.sound('static'), 0.1);
-		bruhlol.visible = true;
-	case 664 | 684:
-		bruhlol.visible = false;
-	case 1176:
-		FlxG.sound.play(Paths.sound('static'), 0.1);
-		bruhlol.visible = true;
-	case 1180:
-		dad.animation.play('scared', true);
-}
-case 'furiosity':
-switch (curStep)
-{
-	case 1305:
-		FlxG.camera.flash(FlxColor.WHITE, 1);
-		bruh.visible = false;
-		//redPlatform.visible = false;
-		backyardnight.visible = true;
-}
-case 'polygonized': //3d red
-switch (curStep)
-{
-	case 0:
-		boyfriend.visible = false;
-		dad.visible = false;
-		gf.visible = false;
-		strumLineNotes.visible = false;
-		grpNoteSplashes.visible = false;
-		notes.visible = false;
-		healthBar.visible = false;
-		healthBarBG.visible = false;
-		iconP1.visible = false;
-		iconP2.visible = false;
-		scoreTxt.visible = false;
-		botplayTxt.visible = false;
-		timeBar.visible = false;
-		timeBarBG.visible = false;
-		timeTxt.visible = false;
-		blackBG.visible = true;
-		bruh.visible = false;
-		FlxTween.tween(FlxG.camera, {zoom: 1000000}, 2, {ease: FlxEase.expoOut,});	
-	case 1:
-		bruh.visible = true;
-		boyfriend.visible = true;
-		dad.visible = true;
-		gf.visible = true;
-		blackBG.visible = false;
-		strumLineNotes.visible = true;
-		grpNoteSplashes.visible = true;
-		notes.visible = true;
-		healthBar.visible = true;
-		healthBarBG.visible = true;
-		iconP1.visible = true;
-		iconP2.visible = true;
-		scoreTxt.visible = true;
-		botplayTxt.visible = true;
-		timeBar.visible = true;
-		timeBarBG.visible = true;
-		timeTxt.visible = true; // ik this is bad but i dont have any other idea of how to do this rn dont bully me
-		FlxG.camera.flash(FlxColor.BLACK, 1);
-		camHUD.visible = false; // mmmmm
-		FlxTween.tween(FlxG.camera, {zoom: 0.9}, 2, {ease: FlxEase.expoOut,});	
-		add(blackScreen);
-	case 60:
-		remove(blackScreen);
-		FlxG.camera.flash(FlxColor.BLACK, 1);
-	case 127:
-		camHUD.visible = true; // mmmmm
-		remove(blackScreen);
-	case 1024 | 1312 | 1424 | 1552 | 1664:
-		shakeCam = true;
-	case 1152 | 1408 | 1472 | 1600 | 2048 | 2176:
-		shakeCam = false;
-	case 2431:
-		FlxG.camera.flash(FlxColor.WHITE, 1);
-		bruh.visible = false;
-		//redPlatform.visible = false;
-		backyardnight.visible = true;
-
-}
+	case 'insanity':
+		switch (curStep)
+		{
+			case 660 | 680:
+				FlxG.sound.play(Paths.sound('static'), 0.1);
+				bruhlol.visible = true;
+			case 664 | 684:
+				bruhlol.visible = false;
+			case 1176:
+				FlxG.sound.play(Paths.sound('static'), 0.1);
+				bruhlol.visible = true;
+			case 1180:
+				dad.animation.play('scared', true);
+		}
+		case 'furiosity':
+		switch (curStep)
+		{
+			case 1305:
+				FlxG.camera.flash(FlxColor.WHITE, 1);
+				bruh.visible = false;
+				//redPlatform.visible = false;
+				backyardnight.visible = true;
+		}
+		case 'polygonized': //3d red
+		switch (curStep)
+		{
+			case 0:
+				boyfriend.visible = false;
+				dad.visible = false;
+				gf.visible = false;
+				strumLineNotes.visible = false;
+				grpNoteSplashes.visible = false;
+				notes.visible = false;
+				healthBar.visible = false;
+				healthBarBG.visible = false;
+				iconP1.visible = false;
+				iconP2.visible = false;
+				scoreTxt.visible = false;
+				botplayTxt.visible = false;
+				timeBar.visible = false;
+				timeBarBG.visible = false;
+				timeTxt.visible = false;
+				blackBG.visible = true;
+				bruh.visible = false;
+				FlxTween.tween(FlxG.camera, {zoom: 1000000}, 2, {ease: FlxEase.expoOut,});	
+			case 1:
+				bruh.visible = true;
+				boyfriend.visible = true;
+				dad.visible = true;
+				gf.visible = true;
+				blackBG.visible = false;
+				strumLineNotes.visible = true;
+				grpNoteSplashes.visible = true;
+				notes.visible = true;
+				healthBar.visible = true;
+				healthBarBG.visible = true;
+				iconP1.visible = true;
+				iconP2.visible = true;
+				scoreTxt.visible = true;
+				botplayTxt.visible = true;
+				timeBar.visible = true;
+				timeBarBG.visible = true;
+				timeTxt.visible = true; // ik this is bad but i dont have any other idea of how to do this rn dont bully me
+				FlxG.camera.flash(FlxColor.BLACK, 1);
+				camHUD.visible = false; // mmmmm
+				FlxTween.tween(FlxG.camera, {zoom: 0.9}, 2, {ease: FlxEase.expoOut,});	
+				add(blackScreen);
+			case 60:
+				remove(blackScreen);
+				FlxG.camera.flash(FlxColor.BLACK, 1);
+			case 127:
+				camHUD.visible = true; // mmmmm
+				remove(blackScreen);
+			case 1024 | 1312 | 1424 | 1552 | 1664:
+				shakeCam = true;
+			case 1152 | 1408 | 1472 | 1600 | 2048 | 2176:
+				shakeCam = false;
+			case 2431:
+				FlxG.camera.flash(FlxColor.WHITE, 1);
+				bruh.visible = false;
+				//redPlatform.visible = false;
+				backyardnight.visible = true;
+		
+		}
 }
 
 if (curStage == 'spooky' && FlxG.random.bool(10) && curBeat > lightningStrikeBeat + lightningOffset)
