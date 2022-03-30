@@ -779,46 +779,53 @@ class PlayState extends MusicBeatState
 					add(sign);
 				}
 
-case '3dRed':
-{
-	defaultCamZoom = 0.85;
-	curStage = '3dRed';
+            case '3dRed':
+				{
+					defaultCamZoom = 0.85;
+				    curStage = '3dRed';
+						
+			bruh.loadGraphic(Paths.image('dave/redsky'));
+			bruh.antialiasing = true;
+			bruh.scrollFactor.set(0.6, 0.6);
+			bruh.active = true;
+			add(bruh);
+						
+			var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+			testshader.waveAmplitude = 0.1;
+			testshader.waveFrequency = 5;
+			testshader.waveSpeed = 2;
+			bruh.shader = testshader.shader;
+			curbg = bruh;
+			
+			var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+			testshader.waveAmplitude = 0.1;
+			testshader.waveFrequency = 5;
+			testshader.waveSpeed = 2;
+			bruh.shader = testshader.shader;
+			curbg = bruh;
 
-	bruh.loadGraphic(Paths.image('dave/redsky'));
-	bruh.antialiasing = true;
-	bruh.scrollFactor.set(0.6, 0.6);
-	bruh.active = true;
-	add(bruh);
+			//redPlatform.loadGraphic(Paths.image('dave/redPlatform'));
+			//redPlatform.setGraphicSize(Std.int(redPlatform.width * 0.85));
+			//redPlatform.updateHitbox();
+			//redPlatform.antialiasing = true;
+			//redPlatform.scrollFactor.set(1.0, 1.0);
+			//redPlatform.active = true;
+			//add(redPlatform);
 
-	var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
-	testshader.waveAmplitude = 0.1;
-	testshader.waveFrequency = 5;
-	testshader.waveSpeed = 2;
-	bruh.shader = testshader.shader;
-	curbg = bruh;
+			blackBG.loadGraphic(Paths.image('dave/blackFade'));
+			blackBG.antialiasing = true;
+			blackBG.scrollFactor.set(0.6, 0.6);
+			blackBG.active = true;
+			blackBG.visible = false;
+			add(blackBG);
 
-	//redPlatform.loadGraphic(Paths.image('dave/redPlatform'));
-	//redPlatform.setGraphicSize(Std.int(redPlatform.width * 0.85));
-	//redPlatform.updateHitbox();
-	//redPlatform.antialiasing = true;
-	//redPlatform.scrollFactor.set(1.0, 1.0);
-	//redPlatform.active = true;
-	//add(redPlatform);
-
-	blackBG.loadGraphic(Paths.image('dave/blackFade'));
-	blackBG.antialiasing = true;
-	blackBG.scrollFactor.set(0.6, 0.6);
-	blackBG.active = true;
-	blackBG.visible = false;
-	add(blackBG);
-
-	backyardnight.loadGraphic(Paths.image('dave/backyardnight'));
-	backyardnight.antialiasing = true;
-	backyardnight.scrollFactor.set(0.6, 0.6);
-	backyardnight.active = true;
-	backyardnight.visible = false;
-	add(backyardnight);
-}
+			backyardnight.loadGraphic(Paths.image('dave/backyardnight'));
+			backyardnight.antialiasing = true;
+			backyardnight.scrollFactor.set(0.6, 0.6);
+			backyardnight.active = true;
+			backyardnight.visible = false;
+			add(backyardnight);
+		}
 
 case 'stage': //Week 1
 	var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
@@ -2570,16 +2577,17 @@ DiscordClient.changePresence("Chart Editor", null, null, true);
 // FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 // FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
 
-iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, CoolUtil.boundTo(1 - (elapsed * 30), 0, 1))));
-iconP2.setGraphicSize(Std.int(FlxMath.lerp(150, iconP2.width, CoolUtil.boundTo(1 - (elapsed * 30), 0, 1))));
+iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, 0.8)),Std.int(FlxMath.lerp(150, iconP1.height, 0.8)));
+iconP2.setGraphicSize(Std.int(FlxMath.lerp(150, iconP2.width, 0.8)),Std.int(FlxMath.lerp(150, iconP2.height, 0.8)));
 
-iconP1.updateHitbox();
-iconP2.updateHitbox();
+		iconP1.updateHitbox();
+		iconP2.updateHitbox();
 
 var iconOffset:Int = 26;
 
 iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01) - iconOffset);
 iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) - (iconP2.width - iconOffset);
+
 
 if (health > 2)
 health = 2;
@@ -4360,6 +4368,15 @@ if (curBeat % gfSpeed == 0 && !gf.stunned && gf.animation.curAnim.name != null &
 gf.dance();
 }
 
+var funny:Float = (healthBar.percent * 0.01) + 0.01;
+
+		//icon squish funny haha
+		iconP1.setGraphicSize(Std.int(iconP1.width + (50 * (2 - funny))),Std.int(iconP1.height - (25 * (2 - funny))));
+		iconP2.setGraphicSize(Std.int(iconP2.width + (50 * (2 - funny))),Std.int(iconP2.height - (25 * (2 - funny))));
+
+		iconP1.updateHitbox();
+		iconP2.updateHitbox();
+		
 if(curBeat % 2 == 0) {
 if (boyfriend.animation.curAnim.name != null && !boyfriend.animation.curAnim.name.startsWith("sing"))
 {

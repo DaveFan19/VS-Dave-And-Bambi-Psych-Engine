@@ -7,7 +7,6 @@
 		"player3": "gf",
 		"notes": [
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -17,7 +16,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -27,7 +25,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -37,7 +34,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -47,7 +43,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -57,7 +52,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -67,7 +61,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -77,7 +70,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -87,7 +79,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -105,7 +96,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -115,7 +105,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -125,7 +114,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -135,7 +123,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -145,7 +132,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -155,7 +141,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -165,7 +150,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -175,7 +159,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -185,7 +168,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -195,7 +177,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -205,7 +186,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -215,7 +195,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -225,7 +204,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -235,7 +213,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -245,7 +222,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -255,7 +231,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -273,7 +248,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -283,7 +257,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -293,7 +266,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -303,7 +275,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -313,7 +284,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -323,7 +293,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -333,7 +302,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -343,7 +311,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -382,7 +349,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -421,7 +387,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -516,7 +481,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -611,7 +575,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -650,7 +613,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -689,7 +651,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -784,7 +745,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -879,7 +839,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -918,7 +877,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -971,7 +929,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1101,7 +1058,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1140,7 +1096,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1179,7 +1134,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1218,7 +1172,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1257,7 +1210,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1296,7 +1248,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1314,7 +1265,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1324,7 +1274,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1334,7 +1283,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1344,7 +1292,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1354,7 +1301,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1364,7 +1310,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1374,7 +1319,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1384,7 +1328,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1394,7 +1337,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1412,7 +1354,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1422,7 +1363,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1432,7 +1372,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1442,7 +1381,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1452,7 +1390,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1462,7 +1399,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1472,7 +1408,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1482,7 +1417,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1492,7 +1426,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1502,7 +1435,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1512,7 +1444,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1522,7 +1453,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1532,7 +1462,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1542,7 +1471,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1552,7 +1480,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1562,25 +1489,10 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [
-					[
-						110531.25,
-						-1,
-						"Change Character",
-						"1",
-						"dave-insanity"
-					],
-					[
-						110625,
-						-1,
-						"Play Animation",
-						"scared",
-						"0"
-					],
 					[
 						110554.6875,
 						-1,
@@ -1608,7 +1520,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1618,7 +1529,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1628,7 +1538,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1638,7 +1547,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1648,7 +1556,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1658,7 +1565,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1668,7 +1574,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1678,7 +1583,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1688,7 +1592,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1698,7 +1601,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1708,7 +1610,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1718,7 +1619,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1728,7 +1628,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1738,7 +1637,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1748,7 +1646,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1758,7 +1655,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1768,7 +1664,6 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -1778,7 +1673,15 @@
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
